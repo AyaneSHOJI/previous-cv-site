@@ -1,0 +1,342 @@
+
+@font-face {
+    font-family: 'anonymousregular';
+    src: url('fonts/Anonymous-webfont.eot');
+    src: url('fonts/Anonymous-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Anonymous-webfont.woff2') format('woff2'),
+         url('fonts/Anonymous-webfont.woff') format('woff'),
+         url('fonts/Anonymous-webfont.ttf') format('truetype'),
+         url('fonts/Anonymous-webfont.svg#anonymousregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+	background-color: #F9FAE8;
+	font-family: 'anonymousregular', Arial,"Trebuchet MS", sans-serif;
+	color: black;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+/*header*/
+header
+{
+	background-color:#E32D0F;
+	opacity: 0.9;
+	height: auto;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 30px;
+	margin-left: -50px;
+	padding-left: 20px;
+	height :200px;
+}
+
+.background_pattern
+{
+	background-image: url("Photos/Japanese_Pattern_mini.jpg");
+	background-repeat: repeat;
+	height: 350px;
+	margin-top:-300px;
+	margin-left: -200px;
+	margin-right: -200px;
+}
+
+
+
+.background_pattern p
+{
+	opacity: 0;
+}
+
+#title
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+header
+{
+	margin-top: 50px;
+	text-align: center;
+	align-items: center;
+}
+
+header h1
+{
+
+	font-size: 2.6em;
+}
+
+header h2
+{
+	margin-top: 8px;
+}
+
+.imageflottante
+{
+	float:right;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items:flex-end;	
+}	
+
+nav li
+{
+	margin-top: -70px;
+	margin-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1em;
+}
+
+nav a
+{
+	color: black;
+}
+
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: #F49789;
+}
+/*section*/
+.section
+{
+	padding-left: 50px;
+	font-size: 1.2em;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.container > .section {
+    position: relative;
+}
+
+.container > .section:nth-of-type(even)::before {
+    position: absolute;
+    top: -40px;
+    left: -20vw;
+    right: -10vw;
+    bottom: -40px;
+    z-index: -1;
+    background-color: #FAD8D2;
+    content: "";
+}
+
+img 
+{
+   padding:1px;
+   border:1px solid #021a40;
+}
+
+
+#a_propos
+{
+	display: flex;
+	justify-content: space-between;     
+}
+
+
+
+#a_propos #message p
+{
+	width: 800px;
+	padding: 30px 20px 20px 30px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+aside
+{
+    position: relative;
+    background-color: #D9C1B6;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+
+#photo_id
+{
+	text-align: center;
+}
+
+
+.image
+{
+	border:none; 
+ 	vertical-align: middle;
+}
+
+.marginauto {
+   
+}
+
+figcaption
+{
+	text-align: left;
+	font-size: 15px;
+}
+
+#competence 
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.pair
+{
+	max-width: 1500px;
+  	margin: 0 auto;
+    text-align: left;
+	background-color: #F6BDB3;
+}
+
+section h2
+{
+	text-decoration: underline;
+}
+
+#competence ul
+{
+	list-style-type: none;
+}
+
+
+td
+{
+	border: solid 2px black;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+.date
+{
+	border-radius: 10px;
+	border:solid 1px black;
+	background-color: #F46F59;
+	color: white;
+	width: 400px;
+	height: 40px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+.job_details:nth-child(1)
+{
+	flex: 2;
+}
+
+.job_details:nth-child(2)
+{
+	flex: 1;
+}
+
+.job_details2:nth-child(1)
+{
+	flex: 2;
+}
+
+.job_details2:nth-child(2)
+{
+	flex: 1;
+}
+
+
+.telecharger
+{
+	text-align: center;
+	background-color: #F46F59;
+	height: 50px;
+	width: 700px;
+	font-size: 0.9em;
+	margin: 0 auto;
+	padding-top: 25px;
+
+}
+
+.job
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.job a
+{
+	color:black;
+}
+
+.job a:hover
+{
+	text-decoration: underline;
+   	color: #F49789;
+}
+
+ #formations ul
+{
+	list-style-type: none;
+}
+/*footer*/
+footer
+{
+	text-align: center;
+	
+}
+
+
+
+
+
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
